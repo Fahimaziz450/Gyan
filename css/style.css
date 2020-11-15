@@ -1,0 +1,1870 @@
+/* *********************************************************
+                        common-css start
+************************************************************ */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol
+{
+    list-style: none;
+}
+a,a:hover,a,:focus
+{
+    text-decoration: none;
+}
+.container
+{
+    width: 1140px;
+    margin: 0 auto;
+}
+.clr
+{
+    clear: both;
+}
+h1,h2,h3,h4,h5,h6,p
+{
+    margin: 0;
+}
+.main-div
+{
+    display: flex;
+}
+.title
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.title h1{
+    font-family: 'Arimo', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #2d3e50;
+    margin-bottom: 15px;
+}
+.title p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    width: 650px;
+    margin: 0 auto;
+}
+/* *********************************************************
+                        common-css end
+************************************************************ */
+
+/* *********************************************************
+                         hader-part-css start
+************************************************************ */
+header
+{
+    background: #2d3e50;
+    color: #fff;
+    font-family: 'Arimo', sans-serif;
+    padding: 15px 0;
+}
+header .left
+{
+    width: 50%;
+    font-size: 14px;
+}
+header .right
+{
+    width: 50%;
+    text-align: right;
+    font-size: 16px;
+}
+header .left i
+{
+    margin-left: 11px;
+    cursor: pointer;
+}
+header .left a
+{
+    display: inline-block;
+    color: #fff;
+    transition: .4s;
+}
+header .left a:hover
+{
+    color: #fbaa33;
+}
+header .left .one
+{
+    margin-left: 20px;
+}
+header .right span
+{
+    display: inline-block;
+    transition: .4s;
+    cursor: pointer;
+}
+header .right span:hover
+{
+    color: #fbaa33;
+}
+
+/* *********************************************************
+                         hader-part-css end
+************************************************************ */
+/* *********************************************************
+                         hader-form-part-css start
+************************************************************ */
+#form-part{
+    
+    background: rgba(0, 0, 0, 0.932);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+    z-index: 333;
+}
+#form-part .box{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form-part .main-form{
+    width: 30%;
+    background: #fff;
+    padding: 20px 0;
+}
+#form-part .main-form form{
+    text-align: center;
+}
+#form-part .main-form input{
+    width: 90%;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 20px;
+    
+}
+#form-part .main-form h1{
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#form-part .main-form button{
+    width: 20%;
+    border: 0;
+    background: #2d3e50;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .4s;
+}
+#form-part .main-form button:hover{
+    background: #fbaa33;
+    color: #2d3e50;
+}
+#form-part .close{
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    top: 5px ;
+    right: 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+#form-part .close:hover{
+    color: #fbaa33;
+}
+
+/* *********************************************************
+                         hader-form-part-css end
+************************************************************ */
+
+
+/* *********************************************************
+                        login-form-part-css start
+************************************************************ */
+#login-part{
+    
+    background: rgba(0, 0, 0, 0.932);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+    z-index: 333;
+}
+#login-part .box{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login-part .main-form{
+    width: 30%;
+    background: #fff;
+    padding: 20px 0;
+}
+#login-part .main-form form{
+    text-align: center;
+}
+#login-part .main-form input{
+    width: 90%;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 20px;
+    
+}
+#login-part .main-form h1{
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#login-part .main-form button{
+    width: 20%;
+    border: 0;
+    background: #2d3e50;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .4s;
+}
+#login-part .main-form button:hover{
+    background: #fbaa33;
+    color: #2d3e50;
+}
+#login-part .close{
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    top: 5px ;
+    right: 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+#login-part .close:hover{
+    color: #fbaa33;
+}
+
+/* *********************************************************
+                         login-form-part-css end
+************************************************************ */
+
+
+/* *********************************************************
+                         Nav-part-css start
+************************************************************ */
+nav
+{
+    padding: 20px 0;
+}
+nav .logo
+{
+    width: 15%;
+    cursor: pointer;
+}
+nav .menu-item
+{
+    width: 65%;
+    text-align: center;
+}
+nav .menu-item ul li
+{
+   display: inline-block;
+   margin-left: 30px;
+   margin-top: 22px;
+}
+nav .menu-item ul li a{
+    display: inline-block;
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2d3e50;
+    transition: .4s;
+}
+nav .menu-item ul li a:hover{
+    color: #fbaa33;
+}
+nav .bottom{
+    width: 20%;
+    text-align: right;
+    margin-top: 6px;
+}
+nav .bottom a{
+    display: inline-block;
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background: #2d3e50;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 8px;
+    transition: .4s;
+}
+nav .bottom a:hover{
+    background: #fbaa33;
+    color: #fff;
+}
+
+/* *********************************************************
+                         Nav-part-css end
+************************************************************ */
+/* *********************************************************
+                         banner-part-css start
+************************************************************ */
+#banner-part .images{
+    background: url(../images/banner_01.png) no-repeat center;
+    background-size: cover;
+}
+#banner-part .images1{
+    background: url(../images/Banner-02.jpg) no-repeat center;
+    background-size: cover;
+}
+#banner-part .images2{
+    background: url(../images/banner_03.jpg) no-repeat center;
+    background-size: cover;
+}
+#banner-part .images .overlay{
+    width: 100%;
+    height: 100%;
+    background: #2d3e509a;
+}
+#banner-part .images1 .overlay{
+    width: 100%;
+    height: 100%;
+    background: #2d3e509a;
+}
+#banner-part .images2 .overlay{
+    width: 100%;
+    height: 100%;
+    background: #2d3e509a;
+}
+#banner-part .prev{
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    border: 1px solid #fff;
+    color: #ffffff;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    transform: translate(50%,-50%);
+    transition: .4s;
+    z-index: 11;
+}
+#banner-part .prev:hover{
+    background: #fbaa33;
+    color: #fff;
+    border-color: #fbaa33;
+}
+#banner-part .next{
+    width: 45px;
+    height: 45px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    transform: translate(-50%,-50%);
+    transition: .4s;
+    z-index: 22;
+}
+#banner-part .next:hover{
+    background: #fbaa33;
+    color: #fff;
+    border-color: #fbaa33;
+}
+#banner-part .text h4{
+    font-family: 'Arimo', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+}
+#banner-part .text h1{
+    font-family: 'Arimo', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+#banner-part .text{
+    margin-left: 10px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+#banner-part .text p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 30px;
+    width: 585px;
+    line-height: 25px;
+    margin-bottom: 60px;
+}
+#banner-part .text a{
+    display: inline-block;
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background: #2d3e50;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin-right: 10px;
+    transition: .4s;
+}
+#banner-part .text a:hover{
+    background: #fbaa33;
+    color: #fff;
+}
+/* *********************************************************
+                         banner-part-css end
+************************************************************ */
+/* *********************************************************
+                         shep-part-css start
+************************************************************ */
+#shep-part .main-div{
+    transform: translateY(-50%);
+}
+#shep-part .item{
+    width: 33%;
+    background: #f5f5f5;
+    border: 1px solid #dddddd;
+    padding: 30px 0;
+    /* border-left: 0; */
+    transition: .4s;
+}
+#shep-part .item:hover{
+    -webkit-box-shadow: 0px 12px 20px -7px rgba(3,3,3,0.59);
+-moz-box-shadow: 0px 12px 20px -7px rgba(3,3,3,0.59);
+box-shadow: 0px 12px 20px -7px rgba(3,3,3,0.59);
+}
+#shep-part .item:hover .text p{
+    color: #fbaa33;
+}
+#shep-part .item .img{
+    text-align: center;
+    margin-bottom: 15px;
+}
+#shep-part .item .text{
+    text-align: center;
+}
+#shep-part .item .text h2{
+    font-family: 'Arimo', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #444444;
+    margin-bottom: 10px;
+}
+#shep-part .item .text p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #999999;
+    cursor: pointer;
+    transition: .4s;
+}
+/* *********************************************************
+                         shep-part-css end
+************************************************************ */
+/* *********************************************************
+                         about-part-css start
+************************************************************ */
+#about-part{
+    margin-top: 30px;
+}
+#about-part .about-slider{
+    width: 50%;
+}
+
+#about-part .about-slider .images{
+    background: url(../images/about-img.png) no-repeat center;
+    background-size: cover;
+    height: 340px;
+}
+#about-part .about-slider .image2{
+    background: url(../images/about-img1.png) no-repeat center;
+    background-size: cover;
+    height: 340px;
+}
+#about-part .about-slider .image3{
+    background: url(../images/about-img2.png) no-repeat center;
+    background-size: cover;
+    height: 340px;
+}
+#about-part .text{
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 54px;
+}
+#about-part .text p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+#about-part .bottom a{
+    display: inline-block;
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background: #2d3e50;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-top: 20px;
+    transition: .4s;
+}
+#about-part .bottom a:hover{
+    background: #fbaa33;
+    color: #fff;
+}
+#about-part .about-slider{
+    position: relative;
+}
+#about-part .about-slider::after{
+    content: "";
+    position: absolute;
+    top: -2%;
+    right: 30%;
+    width: 360px;
+    height: 3px;
+    background: #fbaa33;
+    border-radius: 10px;
+}
+#about-part .about-slider::before{
+    content: "";
+    position: absolute;
+    top: -2%;
+    right: 27%;
+    width: 10px;
+    height: 3px;
+    background: #fbaa33;
+    border-radius: 10px;
+}
+#about-part .after{
+    position: relative;
+}
+#about-part .after::after{
+    content: "";
+    position: absolute;
+    bottom: 9%;
+    right: 114%;
+    width: 360px;
+    height: 3px;
+    background: #2d3e50;
+    border-radius: 10px;
+}
+#about-part .after::before{
+    content: "";
+    position: absolute;
+    bottom: 9%;
+    right: 0%;
+    width: 10px;
+    height: 3px;
+    background: #2d3e50;
+    border-radius: 10px;
+    margin-right: 365px;
+}
+#about-part ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+#about-part ul{
+    text-align: center;
+    transform: translateY(-143%);
+}
+#about-part ul li button{
+    font-size: 0;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid #999999;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+}
+#about-part ul li button::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 18px;
+    height: 18px;
+    background: #fbaa33;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 18px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: .4s;
+}
+#about-part ul .slick-active:hover button{
+    background: #fbaa33;
+    border-color: #fbaa33;
+}
+#about-part ul .slick-active button::after{
+    opacity: 1;
+}
+
+/* *********************************************************
+                         about-part-css end
+************************************************************ */
+/* *********************************************************
+                         counter-part-css start
+************************************************************ */
+#counter-part{
+    background: url(../images/background.png) no-repeat center;
+    background-size: cover;
+    margin-top: 80px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+#counter-part .item{
+    width: 25%;
+    text-align: center;
+}
+#counter-part .item h1{
+    font-family: 'Arimo', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+#counter-part .item p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 15px;
+    position: relative;
+    margin-top: 20px;
+}
+#counter-part .item p::after{
+	content: "";
+	position: absolute;
+	bottom: -85%;
+	left: 39%;
+	width: 50px;
+	height: 3px;
+	border-radius: 15px;
+	background: #fbaa33;
+}
+#counter-part .item p::before {
+	content: "";
+	position: absolute;
+	bottom: -85%;
+	left: 59%;
+	width: 10px;
+	height: 3px;
+	border-radius: 15px;
+	background: #fbaa33;
+}
+/* *********************************************************
+                         counter-part-css end
+************************************************************ */
+
+/* *********************************************************
+                         our-part-css start
+************************************************************ */
+#our-part{
+    margin-top: 80px;
+    transition: .4s;
+}
+#our-part .slick-list{
+    height: 680px;
+}
+#our-part .slick-list .item{
+    height: 600px;
+    background: #f5f5f5;
+    margin-left: 30px;
+    padding: 20px;
+    z-index: 222;
+    transition: .4s;
+}
+#our-part .prev{
+    width: 45px;
+    height: 45px;
+    border: 1px solid #2d3e50;
+    color: #2d3e50;
+    font-size: 20px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: -1%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    transition: .4s;
+    z-index: 22;
+}
+#our-part .prev:hover{
+    background: #fbaa33;
+    color: #fff;
+    border-color: #fbaa33;
+}
+#our-part .next{
+    width: 45px;
+    height: 45px;
+    border: 1px solid #2d3e50;
+    color: #2d3e50;
+    font-size: 20px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: -8%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    transition: .4s;
+    z-index: 22;
+}
+#our-part .next:hover{
+    background: #fbaa33;
+    color: #fff;
+    border-color: #fbaa33;
+}
+#our-part .item .img{
+    background: url(../images/ourcourse1.png)no-repeat center;
+    background-size: cover;
+    height: 212px;
+}
+#our-part .item img{
+    width: 100%;
+    height: 100%;
+}
+#our-part .item .img .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.7);
+    opacity: 0;
+    transition: .4s;
+}
+#our-part .item .img .overlay .icon{
+    position: relative;
+}
+#our-part .item .img .overlay i{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    background: #fbaa33;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,208%);
+}
+#our-part .item .img .imge{
+    width: 26%;
+    margin-top: 20px;
+}
+#our-part .item .text {
+    margin-top: 47px;
+    margin-left: 90px;
+}
+#our-part .item .text span{
+    display: inline-block;
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
+}
+#our-part .item .text h4{
+    font-family: 'Arimo', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #444444;
+}
+#our-part .item .text{
+    position: relative;
+    text-align: left;
+}
+#our-part .item .text .icon{
+    color: #fbaa33;
+    position: absolute;
+    top: 0;
+    right: 3px;
+    text-align: right;
+}
+#our-part .item .text .icon .rating{
+    font-family: 'Arimo', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #444444;
+    display: block;
+}
+#our-part .item .text h2{
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #222222;
+    margin-top: 35px;
+    margin-left: -90px;
+    transition: .4s;
+}
+#our-part .item .text .dlts{
+    font-family: 'Arimo', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #444444;
+    margin-top: 15px;
+    width: 315px;
+    margin-left: -90px;
+    line-height: 22px;
+    position: relative;
+}
+#our-part .item .text .dlts::after{
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    background: #dddddd;
+    width: 310px;
+    height: 1px;
+}
+#our-part .item .text .last{
+    margin-top: 50px;
+}
+#our-part .item .text .last span{
+    font-family: 'Arimo', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #999999;
+    margin-left: -3px;
+}
+
+#our-part .item .text .last .monts{
+    display: block;
+    font-family: 'Arimo', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #444444;
+    margin-top: 7px;
+    margin-left: 2px;
+}
+#our-part .item .text .last .part1{
+    display: inline-block;
+    margin-left: -90px;
+}
+#our-part .item .text .last .part2{
+    display: inline-block;
+    margin-left: 30px;
+}
+#our-part .item .text .last .part3{
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+#our-part .item .bottom{
+    position: relative;
+    text-align: center;
+}
+#our-part .item .bottom a{
+    display: inline-block;
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    background: #2d3e50;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%,120%);
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: .4s;
+}
+#our-part .item:hover a{
+    background: #fbaa33;
+    color: #fff;
+}
+#our-part .item:hover{
+    -webkit-box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.64);
+-moz-box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.64);
+box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.64);
+}
+#our-part .item:hover h2{
+    color: #fbaa33;
+}
+#our-part .item:hover .overlay{
+    opacity: 1;
+}
+
+/* *********************************************************
+                         our-part-css end
+************************************************************ */
+/* *********************************************************
+                         event-part-css start
+************************************************************ */
+#event-part{
+    margin-top: 80px;
+}
+#event-part .main-div{
+    display: flex;
+    justify-content: space-between;
+}
+#event-part .image{
+    width: 50%;
+}
+#event-part .image img{
+    width: 94%;
+    height: 97%;
+}
+#event-part .text{
+    width: 50%;
+}
+#event-part .text .part1{
+    width: 100%;
+    background: #f5f5f5;
+    padding: 20px;
+    margin-bottom: 18px;
+    transition: .4s;
+}
+#event-part .text .part1 .img{
+    width: 37%;
+    position: relative;
+}
+#event-part .text .part1 .img .date{
+    width: 50px;
+    height: 50px;
+    background: #ff3232;
+    position: absolute;
+    bottom: 6px;
+    right: -23px;
+}
+#event-part .text .part1 .img .date h1{
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin-top: 6px;
+    transition: .4s;
+}
+#event-part .text .part1 .text{
+    width: 63%;
+}
+#event-part .text .part1 .text h1{
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2d3e50;
+    margin-left: 35px;
+    transition: .4s;
+}
+#event-part .text .part1 .text span{
+    display: block;
+}
+#event-part .text .part1 .text p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
+    width: 300px;
+    margin-left: 35px;
+    line-height: 25px;
+    margin-top: 15px;
+}
+#event-part .text .part1 .text h4{
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #777777;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+#event-part .text .part1 .text i{
+    font-size: 14px;
+    color: #2d3e50;
+    transition: .4s;
+}
+#event-part .text .part1 .text .clok{
+    margin-left: 20px;
+}
+#event-part .text .part1 .text a{
+    display: inline-block;
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background: #2d3e50;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 3px;
+    margin-left: 35px;
+    margin-top: 25px;
+    transition: .4s;
+}
+#event-part .text .part1:hover a{
+    background: #fbaa33;
+    color: #fff;
+}
+#event-part .text .part1:hover i{
+    color: #fbaa33;
+}
+#event-part .text .part1:hover h1{
+    color: #fbaa33;
+}
+#event-part .text .part1:hover{
+    -webkit-box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.64);
+-moz-box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.64);
+box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.64);
+}
+
+
+#event-part .text .part2{
+    width: 100%;
+    background: #f5f5f5;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: .4s;
+}
+#event-part .text .part2 .img{
+    width: 37%;
+    position: relative;
+}
+#event-part .text .part2 .img .date{
+    width: 50px;
+    height: 50px;
+    background: #3d7e34;
+    position: absolute;
+    bottom: 6px;
+    right: -23px;
+}
+#event-part .text .part2 .img .date h1{
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin-top: 6px;
+    transition: .4s;
+}
+#event-part .text .part2 .text{
+    width: 63%;
+}
+#event-part .text .part2 .text h1{
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2d3e50;
+    margin-left: 35px;
+    transition: .4s;
+}
+#event-part .text .part2 .text span{
+    display: block;
+}
+#event-part .text .part2 .text p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
+    width: 300px;
+    margin-left: 35px;
+    line-height: 25px;
+    margin-top: 15px;
+}
+#event-part .text .part2 .text h4{
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #777777;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+#event-part .text .part2 .text i{
+    font-size: 14px;
+    color: #2d3e50;
+    transition: .4s;
+}
+#event-part .text .part2 .text .clok{
+    margin-left: 20px;
+}
+#event-part .text .part2 .text a{
+    display: inline-block;
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background: #2d3e50;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 3px;
+    margin-left: 35px;
+    margin-top: 25px;
+    transition: .4s;
+}
+#event-part .text .part2:hover a{
+    background: #fbaa33;
+    color: #fff;
+}
+#event-part .text .part2:hover i{
+    color: #fbaa33;
+}
+#event-part .text .part2:hover h1{
+    color: #fbaa33;
+}
+#event-part .text .part2:hover{
+    -webkit-box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.64);
+-moz-box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.64);
+box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.64);
+}
+
+/* *********************************************************
+                         event-part-css end
+************************************************************ */
+
+/* *********************************************************
+                         Testimonial-part-css start
+************************************************************ */
+#testimonial-part{
+    margin-top: 80px;
+    background: #f5f5f5;
+    padding: 20px 0;
+}
+#testimonial-part .title{
+    padding-top: 30px;
+}
+#testimonial-part .left{
+    width: 65%;
+    position: relative;
+}
+#testimonial-part .left .image-part{
+    width: 40%;
+}
+#testimonial-part .left .image-par img{
+    width: 100%;
+}
+#testimonial-part .left .text-part{
+    width: 60%;
+    position: absolute;
+    top: 14%;
+    left: 40%;
+}
+#testimonial-part .left .text-part .dlts p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #444444;
+    width: 400px;
+    margin-left: 15px;
+    line-height: 20px;
+}
+#testimonial-part .left .text-part .dlts h2{
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #444444;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+#testimonial-part .left .text-part .dlts span{
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
+}
+#testimonial-part .left .text-part .dlts .icon{
+    margin-left: 15px;
+}
+#testimonial-part .left .text-part .dlts i{
+    font-size: 16px;
+    color: #fbaa33;
+    margin-top: 20px;
+}
+#testimonial-part .left .after{
+    position: relative;
+}
+#testimonial-part .left .after::after{
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: 0;
+    width: 200px;
+    height: 3px;
+    background: #fbaa33;
+}
+#testimonial-part .left .after::before{
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: 207px;
+    width: 10px;
+    height: 3px;
+    background: #fbaa33;
+}
+#testimonial-part .left .befor{
+    position: relative;
+}
+#testimonial-part .left .befor::after{
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    left: 98px;
+    width: 200px;
+    height: 3px;
+    background: #2d3e50;
+}
+#testimonial-part .left .befor::before{
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    left: 81px;
+    width: 10px;
+    height: 3px;
+    background: #2d3e50;
+}
+#testimonial-part .next{
+    width: 45px;
+    height: 45px;
+    background: #2d3e50;
+    color: #fff;
+    font-size: 20px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    left: -6%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    transition: .4s;
+    z-index: 22;
+}
+#testimonial-part .prev{
+    width: 45px;
+    height: 45px;
+    background: #2d3e50;
+    color: #fff;
+    font-size: 20px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: -6%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    transition: .4s;
+    z-index: 22;
+}
+#testimonial-part .next:hover{
+    background: #fbaa33;
+    color: #fff;
+    border-color: #fbaa33;
+}
+#testimonial-part .prev:hover{
+    background: #fbaa33;
+    color: #fff;
+    border-color: #fbaa33;
+}
+#testimonial-part .right{
+    width: 35%;
+}
+#testimonial-part .card{
+    margin-bottom: 25px;
+    -webkit-box-shadow: 0px 0px 13px -5px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 0px 13px -5px rgba(0,0,0,0.7);
+    box-shadow: 0px 0px 13px -5px rgba(0,0,0,0.7);
+    border: 0;
+    border-color: red;
+}
+#testimonial-part .collapsed{
+    background: #fff;
+    color: #444444;
+}
+#testimonial-part button{
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    background: #fbaa33;
+    color: #fff;
+    padding: 15px;
+    text-decoration: none;
+}
+#testimonial-part button .icon{
+    position: relative;
+}
+#testimonial-part button .icon span{
+    position: absolute;
+    top: -27px;
+    right: 0;
+}
+#testimonial-part button .icon i{
+    font-size: 20px;
+    color: #444444;
+    transform: rotate(180deg);
+}
+#testimonial-part .card-header{
+    padding: 0;
+}
+#testimonial-part .collapsed span i{
+    transform: rotate(0);
+}
+
+/* *********************************************************
+                         Testimonial-part-css end
+************************************************************ */
+
+/* *********************************************************
+                         Teacher-part-css start
+************************************************************ */
+#teacher-part{
+    margin-top: 80px;
+}
+#teacher-part .item{
+    width: 23%;
+    text-align: center;
+    transition: .4s;
+}
+#teacher-part .main-div{
+    display: flex;
+    justify-content: space-between;
+}
+#teacher-part .item img{
+    width: 100%;
+}
+#teacher-part .item .icon i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    background: #2d3e50;
+    color: #fff;
+    transition: .4s;
+    cursor: pointer;
+    margin-right: 10px;
+}
+#teacher-part .item .icon i:hover{
+   background: #fbaa33;
+   color: #fff;
+}
+#teacher-part .item .icon i{
+    text-align: center;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: .4s;
+}
+#teacher-part .item h1{
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #444444;
+    margin-top: -30px;
+}
+#teacher-part .item h4{
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    margin-top: 12px;
+    position: relative;
+}
+#teacher-part .item h4::after{
+    content: "";
+    position: absolute;
+    bottom: -75%;
+    left: 34%;
+    width: 50px;
+    height: 3px;
+    border-radius: 5px;
+    background: #fbaa33;
+}
+#teacher-part .item h4::before{
+    content: "";
+    position: absolute;
+    bottom: -75%;
+    left: 56%;
+    width: 10px;
+    height: 3px;
+    border-radius: 5px;
+    background: #fbaa33;
+}
+#teacher-part .item:hover .icon i{
+    opacity: 1;
+    transform: translateY(-50%);
+}
+#teacher-part .item .text{
+    transition: .4s;
+}
+#teacher-part .item:hover .text{
+    margin-top: 30px;
+}
+/* *********************************************************
+                         Teacher-part-css end
+************************************************************ */
+
+/* *********************************************************
+                         blog1-part-css end
+************************************************************ */
+#blog1{
+    margin-top: 80px;
+    background: url(../images/blog-img.png)no-repeat center;
+    background-size: cover;
+}
+#blog1 .title{
+   padding-top: 30px;
+   padding-bottom: 250px;
+
+}
+#blog1 h1{
+    color: #fff;
+}
+#blog1 p{
+    color: #fff;
+}
+/* *********************************************************
+                         blog1-part-css end
+************************************************************ */
+
+
+/* *********************************************************
+                         blog2-part-css start
+************************************************************ */
+#blog-part{
+    margin-top: -190px;
+}
+#blog-part .main-div{
+    display: flex;
+    justify-content: space-between;
+}
+#blog-part .item{
+    width: 49%;
+    transition: .4s;
+}
+#blog-part .item img{
+    width: 100%;
+}
+#blog-part .item .img{
+    position: relative;
+}
+#blog-part .item .img .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: inset 0px -55px 162px 35px rgba(0,0,0,0.6);
+    -moz-box-shadow: inset 0px -55px 162px 35px rgba(0,0,0,0.6);
+    box-shadow: inset 0px -55px 162px 35px rgba(0,0,0,0.6);
+}
+#blog-part .item span{
+    position: relative;
+}
+#blog-part .item span .ic{
+    position: absolute;
+    top: -380px;
+    right: -520px;
+}
+#blog-part .item span i{
+   font-size: 16px;
+   display: block;
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   text-align: center;
+   border-radius: 50%;
+   background: #2d3e50;
+   color: #fff;
+   margin-top: 15px;
+   transition: .4s;
+   opacity: 0;
+   cursor: pointer;
+}
+#blog-part .item span i:hover{
+    background: #fbaa33;
+    color: #fff;
+}
+#blog-part .item .text{
+    position: relative;
+}
+#blog-part .item .text span{
+    position: absolute;
+    top: -100px;
+    left: 19px;
+}
+#blog-part .item .text p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: -20px;
+}
+#blog-part .item .text h5{
+    font-family: 'Arimo', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+#blog-part .item .hbr{
+    position: relative;
+}
+#blog-part .item .hbr .last{
+    position: absolute;
+    top: -30px;
+    left: 16px;
+}
+#blog-part .item .hbr .last h6{
+    font-family: 'Arimo', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+#blog-part .item .hbr .view{
+    position: absolute;
+    top: -30px;
+    right: 22px;
+}
+#blog-part .item .hbr .view h5{
+    font-family: 'Arimo', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+#blog-part .item .hbr .view .sher{
+    margin-left: 15px;
+}
+#blog-part .item:hover i{
+    opacity: 1;
+}
+#blog-part .item .hbr{
+    opacity: 0;
+}
+#blog-part .item:hover .hbr{
+    opacity: 1;
+}
+/* *********************************************************
+                         blog2-part-css end
+************************************************************ */
+/* *********************************************************
+                         blog3-part-css start
+************************************************************ */
+#blog3{
+    margin-top: 30px;
+}
+#blog3 .main-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+#blog3 .item{
+    width: 24%;
+}
+#blog3 .item img{
+    width: 100%;
+    margin-left: 2px;
+}
+#blog3 .item .img{
+    position: relative;
+}
+#blog3 .item .img .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: inset 1px -96px 134px 3px rgba(0,0,0,0.6);
+    -moz-box-shadow: inset 1px -96px 134px 3px rgba(0,0,0,0.6);
+    box-shadow: inset 1px -96px 134px 3px rgba(0,0,0,0.6);
+}
+#blog3 .item .overlay span h4{
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 205px;
+   
+}
+#blog3 .item .overlay span p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#blog3 .item .overlay .two{
+    width: 225px;
+    margin-top: 185px;
+}
+#blog3 .item .overlay .one{
+    width: 225px;
+    margin-top: 185px;
+}
+#blog3 .item .text .id{
+    margin-top: -70px;
+}
+#blog3 .item .text .two{
+   width: 225px;
+   margin-top: -70px;
+}
+
+
+/* *********************************************************
+                         blog3-part-css end
+************************************************************ */
+
+/* *********************************************************
+                         footer-part-css stat
+************************************************************ */
+#footer-part{
+    margin-top: 80px;
+    padding: 30px 0;
+    background: #2d3e50;
+}
+#footer-part .main-div{
+    display: flex;
+    justify-content: space-between;
+}
+#footer-part .logo{
+    width: 32%;
+}
+#footer-part .logo img{
+    cursor: pointer;
+}
+#footer-part .logo p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 20px;
+    width: 348px;
+}
+#footer-part .logo span{
+    display: block;
+    font-family: 'Arimo', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 20px;
+    width: 361px;
+}
+#footer-part .logo i{
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    background: #fff;
+    color: #2d3e50;
+    transition: .4s;
+    margin-right: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+#footer-part .logo i:hover{
+    background: #fbaa33;
+    color: #fff;
+}
+#footer-part .quick{
+    width: 17%;
+    margin-left: 20px;
+
+}
+#footer-part .quick h3{
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 20px;
+}
+#footer-part .quick ul li{
+    margin-top: 25px;
+}
+#footer-part .quick ul li a{
+    display: inline-block;
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    transition: .4s;
+}
+#footer-part .quick ul li a:hover{
+    color: #fbaa33;
+    margin-left: -15px;
+}
+
+#footer-part .item{
+    width: 16%;
+    margin-top: 44px;
+}
+#footer-part .item ul li{
+    margin-top: 30px;
+}
+#footer-part .item ul li a{
+    display: inline-block;
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    transition: .4s;
+}
+#footer-part .item ul li a:hover{
+    color: #fbaa33;
+    margin-left: 15px;
+}
+#footer-part .contact-us{
+    width: 32%;
+}
+#footer-part .contact-us .icon{
+    width: 16%;
+    margin-top: 30px;
+}
+#footer-part .contact-us h2{
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 20px;
+}
+#footer-part .contact-us .icon i{
+    display: block;
+    margin-bottom: 40px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    background-color: #fff;
+    color: #2d3e50;
+    transition: .4s;
+    cursor: pointer;
+}
+#footer-part .contact-us .icon i:hover{
+    background: #fbaa33;
+    color: #fff;
+}
+#footer-part .contact-us .text{
+    width: 84%;
+    margin-top: 30px;
+}
+
+#footer-part .contact-us .text h5{
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fbaa33;
+    margin-top: -12px;
+}
+#footer-part .contact-us .text .location{
+    margin-top: 2px;
+}
+#footer-part .contact-us .text p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+#footer-part .contact-us .text .phone{
+    margin-top: 40px;
+}
+#footer-part .contact-us .text .phone p{
+    margin-top: 5px;
+}
+#footer-part .contact-us .text .gmail{
+    margin-top: 43px;
+}
+#footer-part .contact-us .text .gmail p{
+    margin-top: 5px;
+}
+/* *********************************************************
+                         footer-part-css end
+************************************************************ */ 
+
+/* *********************************************************
+                         images-slider-part-css start
+************************************************************ */
+#image-part .item .img{
+   position: relative;
+}
+#image-part .item .img img{
+    width: 100%;
+}
+#image-part .item .img .overlay{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 141%;
+    height: 100%;
+    background: rgba(0, 0, 0,.3);
+    opacity: 0;
+    transition: .4s;
+}
+#image-part .item .img .overlay .text h4{
+    display: block;
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background: #fff;
+    color: #2d3e50;
+    padding: 10px;
+}
+#image-part .item .img .overlay .text{
+    position: relative;
+}
+#image-part .item .img .overlay .text span{
+    position: absolute;
+    top: 0%;
+    left: 23%;
+    margin-top: 135px;
+}
+#image-part .item:hover .overlay{
+    opacity: 1;
+}
+/* *********************************************************
+                         images-slider-part-css end
+************************************************************ */ 
+/* *********************************************************
+                         copy-part-css start
+************************************************************ */ 
+#copy-part{
+    background: #2d3e50;
+    padding: 15px 0;
+}
+#copy-part .text p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+#copy-part .text{
+    text-align: center;
+}
+#copy-part .text span{
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fbaa33;
+    cursor: pointer;
+}
+/* *********************************************************
+                        copy-part-css end
+************************************************************ */ 
